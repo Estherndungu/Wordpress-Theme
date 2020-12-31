@@ -1,0 +1,88 @@
+body {
+  font-family: 'Open Sans';
+}
+
+.profile-img {
+
+  height: auto;
+  border-radius: 50%;
+}
+
+.title
+{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: .085em;
+  margin: 4.5rem 0 1rem;
+}
+
+.subtitle {
+  font-size: 2em;
+  margin-top: 1.7rem;
+}
+
+
+
+.tagline {
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: .3em;
+  margin: 10px 0 40px;
+  color: #aaa;
+}
+
+.profile-img {
+  float: left;
+  width: 350px;
+  margin-right: 1.5em;
+  display: block;
+}
+
+
+
+
+
+
+
+
+.about-me {
+  margin: 20px 0 0;
+}
+.connect{
+  border: 1px solid black;
+  width: 50%;
+  position: relative;
+  left: 23%;
+}
+@media (max-width: 900px) {
+  .profile-img {
+    float: none;
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  .about-me {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 780px) {
+ 
+
+  .main-nav li {
+    margin: 0 5px;
+  }
+
+  .page {
+    margin-top: 20px;
+  }
+
+  .profile-img {
+    margin-top: 25px;
+  }
+}
+
+
+/* CONNECTING */

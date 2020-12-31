@@ -1,0 +1,202 @@
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+
+
+#page a {
+  padding-bottom: 2px;
+  color: #433F3F;
+  text-decoration: none;
+  border-bottom: 1px solid #433F3F;
+  transition: all .15s ease-in-out;
+}
+#page a:hover {
+  color: #A34040;
+  border-bottom-color: #A34040;
+}
+
+#page {
+  margin: 120px auto 60px;
+  padding: 0 30px;
+  max-width: 900px;
+}
+
+ 
+
+
+.spage-main .page-title,
+.page-main .page-meta {
+  text-align: center;
+}
+ 
+h1 .page-title  {
+  margin: 60px 0 5px 0;
+  font-size: 46px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Frank Ruhl Libre', serif;
+  margin-bottom: 2rem;
+ }
+/* post thumnail */
+.post-thumbnail img{
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+/* end post thumbnail */
+.page-meta .posted-on  {
+  margin: 0;
+  color: #64625C;
+  font-size: 22px;
+  font-style: italic;
+}
+.page-meta .posted-by{
+  color: #64625C;
+  font-size: 22px;
+  font-style: italic;
+   margin: 0;
+   text-align: center;
+   margin-bottom: 2rem;
+}
+.page-content {
+  margin-top: 60px;
+  font-size: 22px;
+}
+
+.page-content > p:first-of-type:first-line {
+  text-transform: uppercase;
+}
+
+.page-footer {
+  margin: 90px 0;
+  padding: 30px 0;
+  font-size: 18px;
+  font-style: italic;
+  border-top: 1px solid #D6CCC7;
+  border-bottom: 1px solid #D6CCC7;
+}
+.page-footer p {
+  margin: 0;
+}
+
+.comment-area {
+  margin-top: 90px;
+}
+
+h2.comment-title {
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h2.comment-title:after {
+  display: block;
+  content: '';
+  margin: 30px auto 60px;
+  max-width: 300px;
+  border-bottom: 1px solid #D6CCC7;  
+}
+
+ul.comment-list {
+  margin: 0;
+  padding: 0;
+}
+
+ul.comment-list li {
+  margin-bottom: 60px;
+  list-style-type: none;
+}
+
+ul.comment-list li a {
+  display: inline-block;
+  padding-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+.comment-author {
+  font-size: 22px;
+  font-weight: bold;
+}
+.comment-author a {
+  border-bottom: none;
+}
+
+.comment-meta {
+  font-size: 16px;
+}
+
+.comment-content {
+  font-size: 18px;
+}
+
+.reply {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.comment-respond {
+  margin-top: 90px;
+}
+
+.comment-reply-title,
+.comment-respond input[type="text"] {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.comment-reply-title {
+  color: #64625C;
+}
+
+.comment-respond input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #F6F4ED;
+  border: 1px solid #D6CCC7;
+}
+
+.comment-respond textarea {
+  width: 100%;
+  padding: 10px;
+  height: 200px;
+  background: #F6F4ED;
+  border: 1px solid #D6CCC7;
+}
+
+.comment-respond .button {
+  margin-top: 15px;
+  margin-bottom: 2rem;
+  padding: 10px 30px;
+  background: transparent;
+  border: 2px solid #D6CCC7;
+  font-family: "Old Standard TT", Times New Roman, serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  cursor: pointer;
+  transition: background .15s ease-in-out;
+  position: relative;
+  left: 40%;
+  font-weight: bold;
+}
+.comment-respond button:hover {
+  background: #D6CCC7;
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+  #page {
+    margin: 60px auto 30px;
+  }
+  
+  .previous-post,
+  .next-post {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
